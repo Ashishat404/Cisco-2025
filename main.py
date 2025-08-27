@@ -11,3 +11,5 @@ def parse_configs(config_dir):
             if file.endswith(".dump"):
                 device = os.path.basename(root)
                 with open(os.path.join(root, file)) as f:
+                    configs[device] = f.read()
+    return configs
