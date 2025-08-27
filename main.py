@@ -9,3 +9,5 @@ def parse_configs(config_dir):
     for root, _, files in os.walk(config_dir):
         for file in files:
             if file.endswith(".dump"):
+                device = os.path.basename(root)
+                with open(os.path.join(root, file)) as f:
