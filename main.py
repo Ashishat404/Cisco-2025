@@ -29,3 +29,5 @@ def build_topology(configs=None):
     G.add_node("Laptop", type="laptop")
     G.add_node("PC1", type="pc")
     G.add_node("Server", type="server")
+    # Connect routers to each other (fully connected)
+    G.add_edge("R1", "R2", bandwidth=1000)
