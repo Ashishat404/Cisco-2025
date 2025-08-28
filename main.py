@@ -16,3 +16,7 @@ def parse_configs(config_dir):
 
 
 def build_topology(configs=None):
+    G = nx.Graph()
+    # Add routers
+    G.add_node("R1", type="router")
+    G.add_node("R2", type="router")
