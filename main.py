@@ -27,3 +27,5 @@ def build_topology(configs=None):
     # Add end devices
     G.add_node("PC0", type="pc")
     G.add_node("Laptop", type="laptop")
+    G.add_node("PC1", type="pc")
+    G.add_node("Server", type="server")
