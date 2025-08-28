@@ -13,3 +13,6 @@ def parse_configs(config_dir):
                 with open(os.path.join(root, file)) as f:
                     configs[device] = f.read()
     return configs
+
+
+def build_topology(configs=None):
