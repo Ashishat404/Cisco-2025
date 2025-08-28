@@ -20,3 +20,8 @@ def build_topology(configs=None):
     # Add routers
     G.add_node("R1", type="router")
     G.add_node("R2", type="router")
+    G.add_node("R3", type="router")
+    # Add switches
+    G.add_node("Switch1", type="switch")
+    G.add_node("Switch2", type="switch")
+    # Add end devices
