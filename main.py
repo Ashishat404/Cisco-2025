@@ -25,3 +25,5 @@ def build_topology(configs=None):
     G.add_node("Switch1", type="switch")
     G.add_node("Switch2", type="switch")
     # Add end devices
+    G.add_node("PC0", type="pc")
+    G.add_node("Laptop", type="laptop")
