@@ -43,3 +43,4 @@ def build_topology(configs=None):
     G.add_edge("Switch1", "PC0", bandwidth=100)
     G.add_edge("Switch1", "Laptop", bandwidth=100)
     G.add_edge("Switch2", "PC1", bandwidth=100)
+    G.add_edge("Switch2", "Server", bandwidth=100)
