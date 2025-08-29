@@ -38,3 +38,6 @@ def build_topology(configs=None):
     # Connect routers to switches
     G.add_edge("R1", "Switch1", bandwidth=100)
     G.add_edge("R3", "Switch2", bandwidth=100)
+
+    # Connect switches to end devices
+    G.add_edge("Switch1", "PC0", bandwidth=100)
