@@ -47,3 +47,6 @@ def build_topology(configs=None):
 
     devices = {"R1": {}, "R2": {}, "R3": {}, "Switch1": {}, "Switch2": {}, "PC0": {}, "Laptop": {}, "PC1": {}, "Server": {}}
     return G, devices
+
+
+def main():
