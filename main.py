@@ -52,3 +52,5 @@ def build_topology(configs=None):
 def main():
     config_dir = "Conf/"
     configs = parse_configs(config_dir)
+    G, devices = build_topology(configs)
+    print("Nodes:", G.nodes(data=True))
