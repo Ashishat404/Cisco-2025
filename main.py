@@ -50,3 +50,5 @@ def build_topology(configs=None):
 
 
 def main():
+    config_dir = "Conf/"
+    configs = parse_configs(config_dir)
