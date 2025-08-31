@@ -16,4 +16,7 @@ This project provides a solution for automatic network topology generation from 
 ## Workflow of the problem statemnt :
 1. Place sample configuration files in the `Conf/` directory (e.g., `Conf/R1/config.dump`).
 2. Run `main.py` to parse configs and generate the network topology graph.
-3. 
+3.  View the printed nodes and edges to verify the topology.
+4. Open the `.pkt` file in Cisco Packet Tracer to view and simulate the same topology visually.
+
+## Fi
