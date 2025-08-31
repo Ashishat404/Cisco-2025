@@ -12,3 +12,8 @@ This project provides a solution for automatic network topology generation from 
 - Prints nodes and edges to verify the generated topology
 - Provides a Packet Tracer (.pkt) file for manual topology creation and simulation
 - Includes sample configuration files for testing
+
+## Workflow of the problem statemnt :
+1. Place sample configuration files in the `Conf/` directory (e.g., `Conf/R1/config.dump`).
+2. Run `main.py` to parse configs and generate the network topology graph.
+3. 
