@@ -19,4 +19,6 @@ This project provides a solution for automatic network topology generation from 
 3.  View the printed nodes and edges to verify the topology.
 4. Open the `.pkt` file in Cisco Packet Tracer to view and simulate the same topology visually.
 
-## Fi
+## Files being Submitted :
+- main.py: Python script for automatic topology generation
+- ReadMe.txt: Project overview and instructions
