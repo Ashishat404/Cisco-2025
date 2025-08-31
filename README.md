@@ -6,3 +6,8 @@ here I have tried to make a program for generation of topology and for simulatio
 so we will see it there.
 ## Overview
 This project provides a solution for automatic network topology generation from router configuration files and manual topology creation in Cisco Packet Tracer. It demonstrates how to parse configuration files, build a network graph using Python and NetworkX, and visualize or simulate network behavior. The Packet Tracer file visually represents the same topology for practical validation and demonstration.
+## Features
+- Parses router configuration files to extract device and connection information
+- Builds a hierarchical network topology graph using NetworkX
+- Prints nodes and edges to verify the generated topology
+-
