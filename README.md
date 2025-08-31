@@ -10,4 +10,5 @@ This project provides a solution for automatic network topology generation from 
 - Parses router configuration files to extract device and connection information
 - Builds a hierarchical network topology graph using NetworkX
 - Prints nodes and edges to verify the generated topology
--
+- Provides a Packet Tracer (.pkt) file for manual topology creation and simulation
+- Includes sample configuration files for testing
