@@ -45,3 +45,11 @@ This project provides a solution for automatic network topology generation from 
 - Each device and interface should have a unique IP address within its subnet.
 - The Packet Tracer file must be opened in Cisco Packet Tracer software.
 - You can expand the Python code to include validation, load management, and simulation features as needed.
+
+```
+TERMINAL OUTPUT : (this is runned in VS Code )
+with virtual env. and matplotlib
+                                   python -u "d:\Cisco\VIP code 2025\main.py"
+Nodes: [('R1', {'type': 'router'}), ('R2', {'type': 'router'}), ('R3', {'type': 'router'}), ('Switch1', {'type': 'switch'}), ('Switch2', {'type': 'switch'}), ('PC0', {'type': 'pc'}), ('Laptop', {'type': 'laptop'}), ('PC1', {'type': 'pc'}), ('Server', {'type': 'server'})]
+Edges: [('R1', 'R2', {'bandwidth': 1000}), ('R1', 'R3', {'bandwidth': 1000}), ('R1', 'Switch1', {'bandwidth': 100}), ('R2', 'R3', {'bandwidth': 1000}), ('R3', 'Switch2', {'bandwidth': 100}), ('Switch1', 'PC0', {'bandwidth': 100}), ('Switch1', 'Laptop', {'bandwidth': 100}), ('Switch2', 'PC1', {'bandwidth': 100}), ('Switch2', 'Server', {'bandwidth': 100})]
+```
