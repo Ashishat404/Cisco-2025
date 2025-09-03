@@ -64,3 +64,5 @@ def main():
     plt.title("Network Topology Diagram")
     plt.show()
 
+if __name__ == "__main__":
+    main()
