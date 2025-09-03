@@ -33,3 +33,15 @@ This project provides a solution for automatic network topology generation from 
 3. now inside Conf 
 │   ├── R1/config.dump --> connects_to: R2
                            connects_to: SW1
+
+│   ├── R2/config. --> connects_to: R1
+4. Run `main.py`:
+   
+   python main.py
+
+• Open `topology.pkt` in Cisco Packet Tracer to view the manual topology.
+
+## Notes
+- Each device and interface should have a unique IP address within its subnet.
+- The Packet Tracer file must be opened in Cisco Packet Tracer software.
+- You can expand the Python code to include validation, load management, and simulation features as needed.
