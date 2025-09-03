@@ -54,3 +54,7 @@ def main():
     configs = parse_configs(config_dir)
     G, devices = build_topology(configs)
     print("Nodes:", G.nodes(data=True))
+    print("Edges:", G.edges(data=True))
+    
+    # --- Visualization ---
+    pos = nx.spring_layout(G)
