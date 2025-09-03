@@ -22,3 +22,14 @@ This project provides a solution for automatic network topology generation from 
 ## Files being Submitted :
 - main.py: Python script for automatic topology generation
 - ReadMe.txt: Project overview and instructions
+- ReadMe.txt: Project overview and instructions
+- simulator.py: Detailed problem statement and requirements
+- AshishBhatt.pkt : its a packet tarcer file it gives us a network topology diagram with configured routers.
+- validator.py 
+
+## How to Run
+1. Ensure you have Python and NetworkX installed.
+2. Place your config files in the `Conf/` directory.
+3. now inside Conf 
+│   ├── R1/config.dump --> connects_to: R2
+                           connects_to: SW1
