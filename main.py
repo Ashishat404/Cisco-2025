@@ -60,4 +60,7 @@ def main():
     pos = nx.spring_layout(G)
     nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=1500, font_size=10)
     edge_labels = nx.get_edge_attributes(G, 'bandwidth')
-    nx
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+    plt.title("Network Topology Diagram")
+    plt.show()
+
